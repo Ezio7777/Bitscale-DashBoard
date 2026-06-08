@@ -1,6 +1,6 @@
 "use client";
 import { Zap, Sun, Moon } from "lucide-react";
-import { CountUp } from "./ui/helper";
+import { CountUp } from "./helper";
 
 interface TopbarProps {
   dark: boolean;

@@ -7,7 +7,7 @@ import Sidebar from "./Sidebar";
 import Topbar from "./Topbar";
 import FindModal from "./FindModal";
 import GridsManager from "./GridsManager";
-import { TypeWriter } from "./ui/helper";
+import { TypeWriter } from "./helper";
 
 export default function Dashboard() {
   const [dark, setDark] = useState(false);

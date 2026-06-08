@@ -2,7 +2,7 @@
 import { useState, useMemo, useRef, useEffect } from "react";
 import { Search, Star, ChevronDown, ChevronUp, MoreHorizontal, Pencil, Copy, Share2, ExternalLink, Trash2, List, LayoutGrid, ArrowUpDown } from "lucide-react";
 import { INITIAL_GRIDS, SortKey, SortDir } from "../lib/data";
-import { Highlight } from "./ui/helper";
+import { Highlight } from "./helper";
 
 /* -- Local Dropdown Component -- */
 function RowMenu({ name, onClose }: { name: string; onClose: () => void }) {
